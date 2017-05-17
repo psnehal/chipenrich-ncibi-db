@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/codestore/ncibi/projects/!svn/ver/1288/chipenrichweb/ncibi-db/src/test/java/org/ncibi/service/provenance
+END
+TestEntityManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/codestore/ncibi/projects/!svn/ver/1288/chipenrichweb/ncibi-db/src/test/java/org/ncibi/service/provenance/TestEntityManager.java
+END
+ProvenanceDataServiceTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/codestore/ncibi/projects/!svn/ver/1288/chipenrichweb/ncibi-db/src/test/java/org/ncibi/service/provenance/ProvenanceDataServiceTest.java
+END

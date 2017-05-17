@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/codestore/ncibi/projects/!svn/ver/1427/chipenrichweb/ncibi-db/src/main/java/org/ncibi/hibernate
+END
+Sessions.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/codestore/ncibi/projects/!svn/ver/1433/chipenrichweb/ncibi-db/src/main/java/org/ncibi/hibernate/Sessions.java
+END
+SessionFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/codestore/ncibi/projects/!svn/ver/1288/chipenrichweb/ncibi-db/src/main/java/org/ncibi/hibernate/SessionFunction.java
+END
+SessionProcedure.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/codestore/ncibi/projects/!svn/ver/1288/chipenrichweb/ncibi-db/src/main/java/org/ncibi/hibernate/SessionProcedure.java
+END
+ColumnAnnotatedResultTransformer.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/codestore/ncibi/projects/!svn/ver/1288/chipenrichweb/ncibi-db/src/main/java/org/ncibi/hibernate/ColumnAnnotatedResultTransformer.java
+END
+HQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/codestore/ncibi/projects/!svn/ver/1288/chipenrichweb/ncibi-db/src/main/java/org/ncibi/hibernate/HQuery.java
+END

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/codestore/ncibi/projects/!svn/ver/1427/chipenrichweb/ncibi-db/src/main/java/org/ncibi/db
+END
+QueryPropertyConstructor.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/codestore/ncibi/projects/!svn/ver/1288/chipenrichweb/ncibi-db/src/main/java/org/ncibi/db/QueryPropertyConstructor.java
+END
+NullPersistenceSession.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/codestore/ncibi/projects/!svn/ver/1288/chipenrichweb/ncibi-db/src/main/java/org/ncibi/db/NullPersistenceSession.java
+END
+FluentQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/codestore/ncibi/projects/!svn/ver/1288/chipenrichweb/ncibi-db/src/main/java/org/ncibi/db/FluentQuery.java
+END
+PersistenceUnit.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/codestore/ncibi/projects/!svn/ver/1433/chipenrichweb/ncibi-db/src/main/java/org/ncibi/db/PersistenceUnit.java
+END
+DB.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/codestore/ncibi/projects/!svn/ver/1288/chipenrichweb/ncibi-db/src/main/java/org/ncibi/db/DB.java
+END
+PersistenceUnits.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/codestore/ncibi/projects/!svn/ver/1288/chipenrichweb/ncibi-db/src/main/java/org/ncibi/db/PersistenceUnits.java
+END
+PersistenceSession.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/codestore/ncibi/projects/!svn/ver/1288/chipenrichweb/ncibi-db/src/main/java/org/ncibi/db/PersistenceSession.java
+END
+QueryProperty.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/codestore/ncibi/projects/!svn/ver/1288/chipenrichweb/ncibi-db/src/main/java/org/ncibi/db/QueryProperty.java
+END
+EntityManagers.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/codestore/ncibi/projects/!svn/ver/1433/chipenrichweb/ncibi-db/src/main/java/org/ncibi/db/EntityManagers.java
+END

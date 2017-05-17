@@ -1,0 +1,212 @@
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence
+        http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd"
+	version="1.0">
+
+	<persistence-unit name="metdb">
+
+		<provider>org.hibernate.ejb.HibernatePersistence</provider>
+
+		<class>org.ncibi.db.metdb.Compartment</class>
+		<class>org.ncibi.db.metdb.Compound</class>
+		<class>org.ncibi.db.metdb.CompoundDescription</class>
+		<class>org.ncibi.db.metdb.CompoundExternalRef</class>
+		<class>org.ncibi.db.metdb.CompoundName</class>
+		<class>org.ncibi.db.metdb.Enzyme</class>
+		<class>org.ncibi.db.metdb.EnzymeClass</class>
+		<class>org.ncibi.db.metdb.EnzymeDescription</class>
+		<class>org.ncibi.db.metdb.EnzymeExternalRef</class>
+		<class>org.ncibi.db.metdb.EnzymeName</class>
+		<class>org.ncibi.db.metdb.Gene</class>
+		<class>org.ncibi.db.metdb.GeneLocation</class>
+		<class>org.ncibi.db.metdb.Pathway</class>
+		<class>org.ncibi.db.metdb.PathwayClass</class>
+		<class>org.ncibi.db.metdb.PathwayDescription</class>
+		<class>org.ncibi.db.metdb.PathwayExternalRef</class>
+		<class>org.ncibi.db.metdb.PathwayName</class>
+		<class>org.ncibi.db.metdb.Provenance</class>
+		<class>org.ncibi.db.metdb.Reaction</class>
+		<class>org.ncibi.db.metdb.ReactionDescription</class>
+		<class>org.ncibi.db.metdb.ReactionEquation</class>
+		<class>org.ncibi.db.metdb.ReactionEquationDenorm</class>
+		<class>org.ncibi.db.metdb.ReactionExternalRef</class>
+		<class>org.ncibi.db.metdb.ReactionName</class>
+		<class>org.ncibi.db.metdb.ReactionPublication</class>
+		<class>org.ncibi.db.metdb.Subsystem</class>
+		<class>org.ncibi.db.metdb.Location</class>
+		<class>org.ncibi.db.metdb.LocationDescription</class>
+		<class>org.ncibi.db.metdb.LocationExternalRef</class>
+		<class>org.ncibi.db.metdb.PathwayGeneRelation</class>
+
+		<properties>
+			<!-- SQL stdout logging <property name="hibernate.show_sql" value="true"/> 
+				<property name="hibernate.format_sql" value="true"/> <property name="use_sql_comments" 
+				value="true"/> <property name="hibernate.jdbc.batch_size" value="1"/> -->
+
+			<property name="current_session_context_class" value="thread" />
+			<property name="hibernate.connection.driver_class"
+				value="com.microsoft.sqlserver.jdbc.SQLServerDriver" />
+			<property name="hibernate.dialect" value="org.hibernate.dialect.SQLServerDialect" />
+
+		</properties>
+	</persistence-unit>
+
+	<persistence-unit name="mimi">
+
+		<provider>org.hibernate.ejb.HibernatePersistence</provider>
+
+		<class>org.ncibi.db.mimi2.BioEntity</class>
+		<class>org.ncibi.db.mimi2.EntityDescription</class>
+		<class>org.ncibi.db.mimi2.EntityExternalRef</class>
+		<class>org.ncibi.db.mimi2.EntityGene</class>
+		<class>org.ncibi.db.mimi2.EntityName</class>
+		<class>org.ncibi.db.mimi2.EntityPublication</class>
+		<class>org.ncibi.db.mimi2.EntityType</class>
+		<class>org.ncibi.db.mimi2.Experiment</class>
+		<class>org.ncibi.db.mimi2.ExternalRef</class>
+		<class>org.ncibi.db.mimi2.GeneGeneInteraction</class>
+		<class>org.ncibi.db.mimi2.GeneGeneInteractionAttribute</class>
+		<class>org.ncibi.db.mimi2.GeneGeneInteractionAttributePk</class>
+		<class>org.ncibi.db.mimi2.Interaction</class>
+		<class>org.ncibi.db.mimi2.InteractionDescription</class>
+		<class>org.ncibi.db.mimi2.InteractionExternalRef</class>
+		<class>org.ncibi.db.mimi2.InteractionPublication</class>
+		<class>org.ncibi.db.mimi2.InteractionType</class>
+		<class>org.ncibi.db.mimi2.Provenance</class>
+		<class>org.ncibi.db.mimi2.PTM</class>
+		<class>org.ncibi.db.mimi2.Taxonomy</class>
+
+		<properties>
+			<!-- SQL stdout logging <property name="hibernate.show_sql" value="true"/> 
+				<property name="hibernate.format_sql" value="true"/> <property name="use_sql_comments" 
+				value="true"/> <property name="hibernate.jdbc.batch_size" value="1"/> -->
+
+			<property name="current_session_context_class" value="thread" />
+			<property name="hibernate.connection.driver_class"
+				value="com.microsoft.sqlserver.jdbc.SQLServerDriver" />
+			<property name="hibernate.dialect" value="org.hibernate.dialect.SQLServerDialect" />
+		</properties>
+	</persistence-unit>
+
+	<persistence-unit name="gene">
+
+		<provider>org.hibernate.ejb.HibernatePersistence</provider>
+
+		<class>org.ncibi.db.gene2.Gene</class>
+		<class>org.ncibi.db.gene2.GeneExternalRef</class>
+		<class>org.ncibi.db.gene2.GeneName</class>
+		<class>org.ncibi.db.gene2.GenePublication</class>
+		<class>org.ncibi.db.gene2.GoEntry</class>
+		<class>org.ncibi.db.gene2.GoPublication</class>
+		<class>org.ncibi.db.gene2.Homolog</class>
+		<class>org.ncibi.db.gene2.TaxName</class>
+		<class>org.ncibi.db.gene2.Taxonomy</class>
+
+		<properties>
+			<!-- SQL stdout logging <property name="hibernate.show_sql" value="true"/> 
+				<property name="hibernate.format_sql" value="true"/> <property name="use_sql_comments" 
+				value="true"/> <property name="hibernate.jdbc.batch_size" value="1"/> -->
+
+			<property name="current_session_context_class" value="thread" />
+			<property name="hibernate.connection.driver_class"
+				value="com.microsoft.sqlserver.jdbc.SQLServerDriver" />
+			<property name="hibernate.dialect" value="org.hibernate.dialect.SQLServerDialect" />
+
+		</properties>
+	</persistence-unit>
+
+	<persistence-unit name="pubmed">
+
+		<provider>org.hibernate.ejb.HibernatePersistence</provider>
+		<properties>
+			<!-- SQL stdout logging <property name="hibernate.show_sql" value="true"/> 
+				<property name="hibernate.format_sql" value="true"/> <property name="use_sql_comments" 
+				value="true"/> <property name="hibernate.jdbc.batch_size" value="1"/> -->
+
+			<property name="current_session_context_class" value="thread" />
+			<property name="hibernate.connection.driver_class"
+				value="com.microsoft.sqlserver.jdbc.SQLServerDriver" />
+			<property name="hibernate.dialect" value="org.hibernate.dialect.SQLServerDialect" />
+
+		</properties>
+	</persistence-unit>
+
+	<persistence-unit name="registration">
+
+		<provider>org.hibernate.ejb.HibernatePersistence</provider>
+		<class>org.ncibi.db.reginfo.RegistrationApplicationName</class>
+		<class>org.ncibi.db.reginfo.RegistrationInformation</class>
+		<properties>
+			<!-- SQL stdout logging <property name="hibernate.show_sql" value="true"/> 
+				<property name="hibernate.format_sql" value="true"/> <property name="use_sql_comments" 
+				value="true"/> <property name="hibernate.jdbc.batch_size" value="1"/> -->
+
+			<property name="current_session_context_class" value="thread" />
+			<property name="hibernate.connection.driver_class"
+				value="com.microsoft.sqlserver.jdbc.SQLServerDriver" />
+			<property name="hibernate.dialect" value="org.hibernate.dialect.SQLServerDialect" />
+
+		</properties>
+	</persistence-unit>
+
+	<persistence-unit name="idmap">
+
+		<provider>org.hibernate.ejb.HibernatePersistence</provider>
+		<class>org.ncibi.db.idmap.ProteinIdTypeMap</class>
+		<class>org.ncibi.db.idmap.ExperimentMap</class>
+		<class>org.ncibi.db.idmap.InteractionTypeMap</class>
+
+		<properties>
+			<!-- SQL stdout logging <property name="hibernate.show_sql" value="true"/> 
+				<property name="hibernate.format_sql" value="true"/> <property name="use_sql_comments" 
+				value="true"/> <property name="hibernate.jdbc.batch_size" value="1"/> -->
+
+			<property name="current_session_context_class" value="thread" />
+			<property name="hibernate.connection.driver_class"
+				value="com.microsoft.sqlserver.jdbc.SQLServerDriver" />
+			<property name="hibernate.dialect" value="org.hibernate.dialect.SQLServerDialect" />
+
+		</properties>
+	</persistence-unit>
+
+	<persistence-unit name="prov">
+
+		<provider>org.hibernate.ejb.HibernatePersistence</provider>
+		<class>org.ncibi.db.provenance.Provenance</class>
+
+		<properties>
+			<!-- SQL stdout logging <property name="hibernate.show_sql" value="true"/> 
+				<property name="hibernate.format_sql" value="true"/> <property name="use_sql_comments" 
+				value="true"/> <property name="hibernate.jdbc.batch_size" value="1"/> -->
+
+			<property name="current_session_context_class" value="thread" />
+			<property name="hibernate.connection.driver_class"
+				value="com.microsoft.sqlserver.jdbc.SQLServerDriver" />
+			<property name="hibernate.dialect" value="org.hibernate.dialect.SQLServerDialect" />
+
+		</properties>
+	</persistence-unit>
+
+	<persistence-unit name="conceptgen">
+
+		<provider>org.hibernate.ejb.HibernatePersistence</provider>
+		<class>org.ncibi.db.conceptgen.LRpathAnalysis</class>
+		<class>org.ncibi.db.conceptgen.LRpathAnalysisData</class>
+		<class>org.ncibi.db.conceptgen.LRpathConcept</class>
+		<class>org.ncibi.db.conceptgen.LRpathConceptSet</class>
+		<class>org.ncibi.db.conceptgen.LRpathStats</class>
+
+		<properties>
+			<!-- SQL stdout logging <property name="hibernate.show_sql" value="true"/> 
+				<property name="hibernate.format_sql" value="true"/> <property name="use_sql_comments" 
+				value="true"/> <property name="hibernate.jdbc.batch_size" value="1"/> -->
+			<property name="hibernate.dialect" value="org.hibernate.dialect.OracleDialect" />
+			<property name="hibernate.connection.url"
+				value="jdbc:oracle:thin:@ncibi-oracle02.bicc.med.umich.edu:1521:ncibi02" />
+			<property name="hibernate.connection.driver_class" value="oracle.jdbc.OracleDriver" />
+
+		</properties>
+	</persistence-unit>
+
+</persistence>

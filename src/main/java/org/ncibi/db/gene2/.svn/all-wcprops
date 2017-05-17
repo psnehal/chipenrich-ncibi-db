@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/codestore/ncibi/projects/!svn/ver/1288/chipenrichweb/ncibi-db/src/main/java/org/ncibi/db/gene2
+END
+GeneName.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/codestore/ncibi/projects/!svn/ver/1288/chipenrichweb/ncibi-db/src/main/java/org/ncibi/db/gene2/GeneName.java
+END
+GoPublication.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/codestore/ncibi/projects/!svn/ver/1288/chipenrichweb/ncibi-db/src/main/java/org/ncibi/db/gene2/GoPublication.java
+END
+Homolog.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/codestore/ncibi/projects/!svn/ver/1288/chipenrichweb/ncibi-db/src/main/java/org/ncibi/db/gene2/Homolog.java
+END
+GoEntry.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/codestore/ncibi/projects/!svn/ver/1288/chipenrichweb/ncibi-db/src/main/java/org/ncibi/db/gene2/GoEntry.java
+END
+GenePublication.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/codestore/ncibi/projects/!svn/ver/1288/chipenrichweb/ncibi-db/src/main/java/org/ncibi/db/gene2/GenePublication.java
+END
+TaxName.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/codestore/ncibi/projects/!svn/ver/1288/chipenrichweb/ncibi-db/src/main/java/org/ncibi/db/gene2/TaxName.java
+END
+Gene.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/codestore/ncibi/projects/!svn/ver/1288/chipenrichweb/ncibi-db/src/main/java/org/ncibi/db/gene2/Gene.java
+END
+GeneExternalRef.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/codestore/ncibi/projects/!svn/ver/1288/chipenrichweb/ncibi-db/src/main/java/org/ncibi/db/gene2/GeneExternalRef.java
+END
+Taxonomy.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/codestore/ncibi/projects/!svn/ver/1288/chipenrichweb/ncibi-db/src/main/java/org/ncibi/db/gene2/Taxonomy.java
+END

@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/codestore/ncibi/projects/!svn/ver/1288/chipenrichweb/ncibi-db/src/main/java/org/ncibi/db/metdb
+END
+Provenance.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/codestore/ncibi/projects/!svn/ver/1288/chipenrichweb/ncibi-db/src/main/java/org/ncibi/db/metdb/Provenance.java
+END
+PathwayClass.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/codestore/ncibi/projects/!svn/ver/1288/chipenrichweb/ncibi-db/src/main/java/org/ncibi/db/metdb/PathwayClass.java
+END
+ReactionExternalRef.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/codestore/ncibi/projects/!svn/ver/1288/chipenrichweb/ncibi-db/src/main/java/org/ncibi/db/metdb/ReactionExternalRef.java
+END
+Reaction.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/codestore/ncibi/projects/!svn/ver/1288/chipenrichweb/ncibi-db/src/main/java/org/ncibi/db/metdb/Reaction.java
+END
+ReactionName.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/codestore/ncibi/projects/!svn/ver/1288/chipenrichweb/ncibi-db/src/main/java/org/ncibi/db/metdb/ReactionName.java
+END
+Enzyme.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/codestore/ncibi/projects/!svn/ver/1288/chipenrichweb/ncibi-db/src/main/java/org/ncibi/db/metdb/Enzyme.java
+END
+EnzymeExternalRef.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/codestore/ncibi/projects/!svn/ver/1288/chipenrichweb/ncibi-db/src/main/java/org/ncibi/db/metdb/EnzymeExternalRef.java
+END
+GeneLocation.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/codestore/ncibi/projects/!svn/ver/1288/chipenrichweb/ncibi-db/src/main/java/org/ncibi/db/metdb/GeneLocation.java
+END
+ReactionDescription.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/codestore/ncibi/projects/!svn/ver/1288/chipenrichweb/ncibi-db/src/main/java/org/ncibi/db/metdb/ReactionDescription.java
+END
+EnzymeName.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/codestore/ncibi/projects/!svn/ver/1288/chipenrichweb/ncibi-db/src/main/java/org/ncibi/db/metdb/EnzymeName.java
+END
+Location.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/codestore/ncibi/projects/!svn/ver/1288/chipenrichweb/ncibi-db/src/main/java/org/ncibi/db/metdb/Location.java
+END
+LocationExternalRef.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/codestore/ncibi/projects/!svn/ver/1288/chipenrichweb/ncibi-db/src/main/java/org/ncibi/db/metdb/LocationExternalRef.java
+END
+ReactionEquation.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/codestore/ncibi/projects/!svn/ver/1288/chipenrichweb/ncibi-db/src/main/java/org/ncibi/db/metdb/ReactionEquation.java
+END
+PathwayGeneRelation.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/codestore/ncibi/projects/!svn/ver/1288/chipenrichweb/ncibi-db/src/main/java/org/ncibi/db/metdb/PathwayGeneRelation.java
+END
+EnzymeDescription.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/codestore/ncibi/projects/!svn/ver/1288/chipenrichweb/ncibi-db/src/main/java/org/ncibi/db/metdb/EnzymeDescription.java
+END
+LocationDescription.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/codestore/ncibi/projects/!svn/ver/1288/chipenrichweb/ncibi-db/src/main/java/org/ncibi/db/metdb/LocationDescription.java
+END
+Pathway.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/codestore/ncibi/projects/!svn/ver/1288/chipenrichweb/ncibi-db/src/main/java/org/ncibi/db/metdb/Pathway.java
+END
+PathwayExternalRef.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/codestore/ncibi/projects/!svn/ver/1288/chipenrichweb/ncibi-db/src/main/java/org/ncibi/db/metdb/PathwayExternalRef.java
+END
+Gene.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/codestore/ncibi/projects/!svn/ver/1288/chipenrichweb/ncibi-db/src/main/java/org/ncibi/db/metdb/Gene.java
+END
+PathwayName.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/codestore/ncibi/projects/!svn/ver/1288/chipenrichweb/ncibi-db/src/main/java/org/ncibi/db/metdb/PathwayName.java
+END
+ReactionEquationDenorm.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/codestore/ncibi/projects/!svn/ver/1288/chipenrichweb/ncibi-db/src/main/java/org/ncibi/db/metdb/ReactionEquationDenorm.java
+END
+PathwayDescription.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/codestore/ncibi/projects/!svn/ver/1288/chipenrichweb/ncibi-db/src/main/java/org/ncibi/db/metdb/PathwayDescription.java
+END
+CompoundExternalRef.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/codestore/ncibi/projects/!svn/ver/1288/chipenrichweb/ncibi-db/src/main/java/org/ncibi/db/metdb/CompoundExternalRef.java
+END
+Compound.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/codestore/ncibi/projects/!svn/ver/1288/chipenrichweb/ncibi-db/src/main/java/org/ncibi/db/metdb/Compound.java
+END
+CompoundName.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/codestore/ncibi/projects/!svn/ver/1288/chipenrichweb/ncibi-db/src/main/java/org/ncibi/db/metdb/CompoundName.java
+END
+CompoundDescription.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/codestore/ncibi/projects/!svn/ver/1288/chipenrichweb/ncibi-db/src/main/java/org/ncibi/db/metdb/CompoundDescription.java
+END
+Compartment.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/codestore/ncibi/projects/!svn/ver/1288/chipenrichweb/ncibi-db/src/main/java/org/ncibi/db/metdb/Compartment.java
+END
+EnzymeClass.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/codestore/ncibi/projects/!svn/ver/1288/chipenrichweb/ncibi-db/src/main/java/org/ncibi/db/metdb/EnzymeClass.java
+END
+ReactionPublication.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/codestore/ncibi/projects/!svn/ver/1288/chipenrichweb/ncibi-db/src/main/java/org/ncibi/db/metdb/ReactionPublication.java
+END
+Subsystem.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/codestore/ncibi/projects/!svn/ver/1288/chipenrichweb/ncibi-db/src/main/java/org/ncibi/db/metdb/Subsystem.java
+END
